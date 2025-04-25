@@ -1,15 +1,20 @@
-# Twitter Scraper API voor Railway
+# Lokale Twitter Scraper met snscrape
 
-## Beschrijving
-FastAPI app die Twitter posts over meme coins ophaalt en analyseert met VADER sentimentanalyse.
+## Wat doet dit?
+- Scrapet tweets over $PEPE, $DOGE of memecoins
+- Analyseert het sentiment met VADER
+- Werkt zonder Twitter API
 
-## Deployen op Railway
-1. Ga naar https://railway.app en log in
-2. Klik op "New Project" > "Deploy from GitHub repo"
-3. Upload deze projectmap naar GitHub
-4. Voeg een Environment Variable toe:
-   - TWITTER_BEARER_TOKEN (je Twitter API v2 token)
+## Installatie
+1. Python 3.8+ vereist
+2. Installeer dependencies:
+```
+pip install -r requirements.txt
+```
 
-## Testen
-Bezoek:
-https://<jouw-railway-project>.railway.app/scrape
+3. Run de scraper:
+```
+python scrape_local.py
+```
+
+Resultaten worden getoond in de terminal en opgeslagen in `output.json`
