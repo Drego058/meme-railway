@@ -1,0 +1,11 @@
+{
+  "name": "MemeScraper Python 3.10",
+  "build": {
+    "dockerfile": "Dockerfile"
+  },
+  "settings": {
+    "terminal.integrated.defaultProfile.linux": "bash"
+  },
+  "postCreateCommand": "pip install -r requirements.txt",
+  "remoteUser": "vscode"
+}
