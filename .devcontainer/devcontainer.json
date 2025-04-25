@@ -1,5 +1,5 @@
 {
-  "name": "MemeScraper Python 3.10",
+  "name": "MemeScraper Python 3.10 Fixed",
   "build": {
     "dockerfile": "Dockerfile"
   },
